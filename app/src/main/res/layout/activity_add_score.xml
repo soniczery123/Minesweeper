@@ -13,10 +13,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:background="@drawable/winner"
         android:textSize="35dp"
         android:layout_marginTop="140dp"
         android:layout_alignParentTop="true"
-        android:text="WINNER!!!!!!!!" />
+        />
 
     <TextView
         android:id="@+id/textViewScore"

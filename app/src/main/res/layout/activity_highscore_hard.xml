@@ -15,8 +15,10 @@
         android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
         android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/highscore_hard"
         android:layout_alignParentTop="true"
-        android:text="High Score (Hard)" />
+        />
 
     <ListView
         android:id="@+id/listScore"

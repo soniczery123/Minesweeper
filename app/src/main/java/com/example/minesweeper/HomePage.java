@@ -35,7 +35,8 @@ public class HomePage extends AppCompatActivity {
         HowToPlayButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(HomePage.this, how_to_play.class);
+                startActivity(intent);
             }
         });
         HighScoreButton.setOnClickListener(new View.OnClickListener() {
