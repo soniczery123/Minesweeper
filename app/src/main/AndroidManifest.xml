@@ -22,7 +22,8 @@
         <activity android:name=".item" />
         <activity android:name=".highscore_easy" />
         <activity android:name=".select_highscore" />
-        <activity android:name=".add_score"></activity>
+        <activity android:name=".add_score" />
+        <activity android:name=".how_to_play"></activity>
     </application>
 
 </manifest>
