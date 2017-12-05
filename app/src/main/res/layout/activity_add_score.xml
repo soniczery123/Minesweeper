@@ -10,10 +10,12 @@
 
     <TextView
         android:id="@+id/textViewWinner"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:background="@drawable/winner"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/wordwinner"
         android:textSize="35dp"
         android:layout_marginTop="140dp"
         android:layout_alignParentTop="true"

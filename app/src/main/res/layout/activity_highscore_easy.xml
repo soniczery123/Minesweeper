@@ -9,15 +9,12 @@
     tools:context="com.example.minesweeper.highscore_easy">
     <TextView
         android:id="@+id/textViewMode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
         android:layout_marginTop="50dp"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"
-        android:textSize="30dp"
-        android:layout_alignParentTop="true"
         android:background="@drawable/highscore_easy"
-        />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <ListView
         android:id="@+id/listScore"
