@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.minesweeper">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bomb"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".easyMode" />
+        <activity android:name=".hardMode" />
+        <activity android:name=".highscore_hard" />
+        <activity android:name=".item" />
+        <activity android:name=".highscore_easy" />
+        <activity android:name=".select_highscore" />
+        <activity android:name=".add_score"></activity>
+    </application>
+
+</manifest>
