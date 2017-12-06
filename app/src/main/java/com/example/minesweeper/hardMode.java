@@ -189,6 +189,7 @@ public class hardMode extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 finish();
+                moveTaskToBack(true);
             }
         });
         dialog.show();
