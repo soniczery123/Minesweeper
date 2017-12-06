@@ -55,7 +55,7 @@ public class HomePage extends AppCompatActivity {
         dialog.setMessage("Do you want to exit?");
         dialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
-                finish();
+                moveTaskToBack(true);
             }
         });
 
